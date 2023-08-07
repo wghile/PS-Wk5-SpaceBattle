@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="bodyContainer">
 
         <div class="mainCharacterView left" >
-                <div class="nameBox">USS Schwarzenegger</div>
+                <div class="nameBox">Razor Crest</div>
                 <div class="playerImage"></div>
                 <div class="playerStats">
 
-                Hull : 15 <br>
+                Hull : 20 <br>
                 FirePower : 5 <br>
                 Accuracy : .7 <br>
-
-z
 
                 </div>
 
@@ -34,16 +33,35 @@ z
             <div class="nameBox">Enemy</div>
             <div class="enemyImage"></div>
                 <div class="enemyStats">
-                    Hull : 6 <br>
-                    FirePower : 3 <br>
-                    Accuracy : .6 <br>
+                    Hull : 3-6 <br>
+                    FirePower : 2-4 <br>
+                    Accuracy : .6-.8 <br>
     
     
                 </div>
             
         </div>
 
+    </div>
 
-    <script src="app.js"></script>
+    <div id = 'buttonDiv'>
+        <button id='startButton'>➣ Start Game</button>
+    </div>
+    <script>
+        //Start Game Button
+        const button = document.querySelector('button')
+        const a = document.createElement('a')
+        a.setAttribute('href', 'page2.html')
+        a.setAttribute('target', '_blank')
+        button.appendChild(a)
+
+        function navigateToGame(evt) {
+            evt.preventDefault()
+            if (evt.target === button) {
+                window.location.href = a.href
+            }
+        }
+        button.addEventListener('click', navigateToGame)
+    </script>
 </body>
 </html>

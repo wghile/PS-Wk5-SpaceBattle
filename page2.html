@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="page2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script defer src = 'main.js'></script>
+</head>
+<body>
+    <nav>
+        <div id = 'alien-stats'>
+            <table>
+                <tr>
+                    <td>
+                        Alien Ship Stats
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Hull: <span id = 'alien-hull'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Firepower: <span id = 'alien-firepower'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Accuracy: <span id = 'alien-accuracy'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Press the 🆀 key to fire
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id = 'title'>
+            <h1>
+                Mandelorian's Quest
+            </h1>
+        </div>
+        <div id = 'RC-stats'>
+            <table>
+                <tr>
+                    <td>
+                        Razor Crest Stats
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Hull: <span id = 'player-hull'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Firepower: <span id = 'player-firepower'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Accuracy: <span id = 'player-accuracy'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Press the 🅿 key to fire
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+    <div id = 'alien-lives'>
+        Lives:
+        <img class = 'alien-life' src = 'images/enemy.gif' alt = 'Alien'/>
+        <img class='alien-life' src='images/enemy.gif' alt='Alien' />
+        <img class='alien-life' src='images/enemy.gif' alt='Alien' />
+        <img class='alien-life' src='images/enemy.gif' alt='Alien' />
+        <img class='alien-life' src='images/enemy.gif' alt='Alien' />
+        <img class='alien-life' src='images/enemy.gif' alt='Alien' />
+    </div>
+    <main>
+        <img id='alien' src='images/enemy.gif' alt='Alien Ship' />
+    </main>
+    <aside>
+        <span id = 'laser'>💥</span>
+        <img id='player' src='images/space-hero.png' alt='Player Ship'/>
+    </aside>
+    <footer>
+        Game Status: 
+        <span id = 'console-status'>
+            Razor Crest's turn
+        </span>
+    </footer>
+</body>
+</html>
