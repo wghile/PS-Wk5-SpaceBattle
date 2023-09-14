@@ -111,7 +111,7 @@ let playerAcc = document.querySelector('#player-accuracy')
 playerAcc.textContent = Math.round(player1.accuracy*100)/100
 
 
-//Actions
+//Query Selectors
 const player = document.querySelector('#player')
 const updates = document.querySelector('#console-status')
 const alien = document.querySelector('#alien')
@@ -292,7 +292,7 @@ function playAgain(){
     }
 } 
 
-
+// Game Controls
 document.addEventListener('keydown', (event) => {
     const keyName = event.key
     if(keyName === "p"){
