@@ -28,7 +28,7 @@ Your spaceship, the USS Assembly should have the following properties:
 
 - firepower - 5
 
--accuracy - .7
+- accuracy - .7
 
 The alien ships should each have the following ranged properties determined randomly:
 
@@ -65,9 +65,12 @@ You could be battling six alien ships each with unique values.
    - If the user hit the alien ship but the alien ship is still alive the alien ship will counter attack (user must press the Q key)
 
 4. Continue the game until either:
-   1. User decides to retreat
-   2. User's hull reaches 0 and is destroyed
-   3. User destroyes all of the alien ships
+
+   - User decides to retreat
+
+   - User's hull reaches 0 and is destroyed
+
+   - User destroyes all of the alien ships
 
 ## Challenges
 
