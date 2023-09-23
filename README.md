@@ -1,4 +1,4 @@
-Game can be accessed here: https://wghile.github.io/spacebattlegame-PSMiniProject/
+Game can be accessed here: https://wghile.github.io/spacebattlegame/
 
 ## About
 
