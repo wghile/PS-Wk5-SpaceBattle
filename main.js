@@ -173,7 +173,7 @@ function counterAttack(){
         }
         playerHull.textContent = player1.hull
         alien.animate([
-            {transform: "translateX(60vw) rotate(360deg) scale(1.5)"}
+            {transform: "translateX(60vw) rotate(360deg) scale(1.1)"}
         ],
         {
             duration: 1000,
@@ -226,7 +226,7 @@ function retreat(){
         })
         player.animate([
             {transform: "rotate(180)"},
-            {transform: "translateX(20vw)"}
+            {transform: "translateX(30vw)"}
         ],
         {
             duration: 1000,
@@ -258,7 +258,7 @@ function retreat(){
                 fill: "forwards"
             })
             player.animate([
-                {transform: "scale(4) translateX(-8vw)"}
+                {transform: "scale(3) translateX(-10vw)"}
             ],
             {
                 duration: 1000,
